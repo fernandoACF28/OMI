@@ -5,7 +5,7 @@ h5py==3.11.0
 haversine==2.9.0
 ipywidgets==8.1.7
 pqdm==0.2.0
-pyproj==3.7.1
+pyproj==3.5.0
 rasterio==1.4.3
 rioxarray==0.19.0
 tqdm==4.67.1
