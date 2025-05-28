@@ -8,3 +8,4 @@ scikit-learn
 xarray
 h5py
 earthaccess
+haversine
