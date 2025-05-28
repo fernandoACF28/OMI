@@ -2,6 +2,7 @@ import os
 import h5py
 import numpy as np
 import pandas as pd
+from typing import Tuple
 from tqdm import tqdm
 from glob import glob as gb
 from haversine import haversine, Unit
@@ -9,7 +10,7 @@ from haversine import haversine, Unit
 
 
 class OzoneMonitoringInstrument:
-    def __init__(self,path: str, index: int, coordinates: tuple[float,float],
+    def __init__(self,path: str, index: int, coordinates: Tuple[float,float],
                 station_name: str, name_folder: str, year_data: str,
                 var_select: str = "ColumnAmountO3", radius: int = None,
                 path_finaly_csv: str = None):
